@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.header {
+  height: auto;
+  width: 100%;
+  clear: both;
+  background-color: darkblue;
+  color: white;
+  min-height: 90px;
+  padding: 15px 0px;
+}
+
+.headerright-block h1 {
+  padding: 27px 0px;
+  width: 100%;
+}
+
+.headerright-block col {
+  width: 70%;
+}
+
+.heading {
+  text-align: center;
+}
+.logo img {
+  width: 88px;
+}
+
+.navigation {
+  height: auto;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+}
+
+.links {
+  padding: 5px;
+  font-size: 20px;
+  margin: 2px;
+  padding-top: 20px;
+  line-height: 70px;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+
+.exposection {
+  height: auto;
+}
+.expo {
+  color: blueviolet;
+}
+
+.button {
+  margin: 4% 0;
+  padding: 2% 4%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+ul.mainmenu li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+ul.mainmenu li ul {
+  display: none;
+}
+
+ul.mainmenu li:hover ul {
+  display: block;
+  position: absolute;
+  background: blanchedalmond;
+  color: blue;
+  width: auto;
+  border: none;
+  margin-top: 18px;
+}
+.ultag {
+  font-size: 18px;
+  padding-left: 20px;
+}
+ul.mainmenu li ul li {
+  border-bottom: 1px solid #000;
+}
+.img {
+  width: 56%;
+  float: right;
+}
+p {
+  font-size: 16px;
+  line-height: 27px;
+  font-family: serif;
+}
+section {
+  clear: both;
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 2% 0;
+  padding-left: 2%;
+  text-align: center;
+}
+ul li ul li {
+  padding: 6px 0px;
+  text-align: center;
+  width: 132px;
+}
+ul.mainmenu li {
+  padding: 17px 12px;
+}
